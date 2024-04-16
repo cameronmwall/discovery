@@ -16,3 +16,17 @@ deployments:
           requests:
             cpu: 10m
             memory: 200Mi
+        large:
+          limits:
+            cpu: 50m
+            memory: 75Mi
+          requests:
+            cpu: 1m
+            memory: 20Mi
+        extra-large:
+          limits:
+            cpu: 500m
+            memory: 750Mi
+          requests:
+            cpu: 10m
+            memory: 200Mi
