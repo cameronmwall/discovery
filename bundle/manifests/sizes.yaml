@@ -1,29 +1,29 @@
 deployments:
   - name: discovery-operator
     containers:
-      - name: discovery-operator
-        small:
+      - name: discovery-operator2
+        Small:
           limits:
             cpu: 50m
             memory: 75Mi
           requests:
             cpu: 1m
             memory: 20Mi
-        medium:
+        Medium:
           limits:
             cpu: 500m
             memory: 750Mi
           requests:
             cpu: 10m
             memory: 200Mi
-        large:
+        Large:
           limits:
             cpu: 50m
             memory: 75Mi
           requests:
             cpu: 1m
             memory: 20Mi
-        extra-large:
+        ExtraLarge:
           limits:
             cpu: 500m
             memory: 750Mi
